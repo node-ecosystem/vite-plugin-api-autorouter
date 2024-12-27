@@ -44,5 +44,15 @@
   },
   "engines": {
     "node": ">=22"
-  }
+  },
+  "keywords": [
+    "api",
+    "api-rest",
+    "api-routes",
+    "build",
+    "plugin",
+    "routes",
+    "routing",
+    "vite"
+  ]
 }
