@@ -27,7 +27,7 @@
     "od": "yarn outdated"
   },
   "dependencies": {
-    "universal-autorouter": "^0.2.2"
+    "universal-autorouter": "^0.2.3"
   },
   "peerDependencies": {
     "vite": "*"
@@ -37,10 +37,10 @@
     "@yarnpkg/sdks": "^3.2.0",
     "eslint": "^9.17.0",
     "eslint-plugin-unicorn": "^56.0.1",
-    "pkgroll": "^2.5.1",
+    "pkgroll": "^2.6.0",
     "typescript": "^5.7.2",
-    "typescript-eslint": "^8.18.1",
-    "vite": "^6.0.5"
+    "typescript-eslint": "^8.18.2",
+    "vite": "^6.0.6"
   },
   "engines": {
     "node": ">=22"
