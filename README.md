@@ -12,6 +12,7 @@ yarn add -D vite-plugin-build-routes
 Example:
 - `/server/api` as _target_ directory that contains `/server/api/user/index.ts` file
 - `/dist` as _build_ output directory
+- register `vite-plugin-build-routes` plugin and server plugin (see below)
 - build with Vite (e.g. `yarn vite build`)
 - the _result_ is `/dist/server/api/user/index.mjs`
 
