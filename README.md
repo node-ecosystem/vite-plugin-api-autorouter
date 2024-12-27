@@ -16,7 +16,7 @@ yarn add -D vite-plugin-api-autorouter
 import vike from 'vike/plugin'
 import { vikeNode } from 'vike-node/plugin'
 import type { UserConfig } from 'vite'
-import viteApiAutoloader from 'vite-plugin-api-autorouter/plugin'
+import viteApiAutoloader from 'vite-plugin-api-autorouter'
 
 export default {
   plugins: [
@@ -34,12 +34,10 @@ import path from 'node:path'
 import { serve } from '@hono/node-server'
 import { Hono } from 'hono'
 import vike from 'vike-node/hono'
-import apiAutoloader from 'vite-plugin-api-autorouter/server'
+import autoloadRoutes from 'universal-autorouter'
 
-const app = new Hono()
-
-await apiAutoloader({
-  app,
+const app = await autoloadRoutes(new Hono(), {
+  pattern: process.env.NODE_ENV === 'production' ? '**/*.mjs' : '**/*.ts',
   prefix: '/api',
   routesDir: path.resolve(import.meta.dirname, 'api'),
   viteDevServer: globalThis.__vikeNode?.viteDevServer

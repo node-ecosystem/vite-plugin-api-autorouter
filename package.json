@@ -3,15 +3,11 @@
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.mts",
   "exports": {
-    "./plugin": {
-      "import": "./dist/plugin/index.mjs",
-      "types": "./dist/plugin/index.d.mts"
-    },
-    "./server": {
-      "import": "./dist/server/index.mjs",
-      "types": "./dist/server/index.d.mts"
-    }
+    "import": "./dist/index.mjs",
+    "types": "./dist/index.d.mts"
   },
   "repository": {
     "type": "git",
