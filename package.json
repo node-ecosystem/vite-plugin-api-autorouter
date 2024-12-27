@@ -42,7 +42,14 @@
     "typescript-eslint": "^8.18.2",
     "vite": "^6.0.6"
   },
-  "engines": {
-    "node": ">=22"
-  }
+  "keywords": [
+    "api",
+    "api-rest",
+    "api-routes",
+    "build",
+    "plugin",
+    "routes",
+    "routing",
+    "vite"
+  ]
 }
