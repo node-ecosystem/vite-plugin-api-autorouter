@@ -9,7 +9,7 @@ type PluginOptions = {
   pattern?: string // File path pattern to bundle
 }
 
-export default function bundleFilesPlugin(options: string | PluginOptions): Plugin {
+const bundleFilesPlugin = (options: string | PluginOptions): Plugin => {
   return {
     name: 'vite-plugin-api-autorouter',
     apply: 'build',
@@ -38,3 +38,5 @@ export default function bundleFilesPlugin(options: string | PluginOptions): Plug
     }
   }
 }
+
+export default bundleFilesPlugin
