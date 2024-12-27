@@ -11,7 +11,7 @@ type PluginOptions = {
 
 const bundleFilesPlugin = (options: string | PluginOptions): Plugin => {
   return {
-    name: 'vite-plugin-api-autorouter',
+    name: 'vite-plugin-build-routes',
     apply: 'build',
     enforce: 'post',
     configResolved: (config) => {

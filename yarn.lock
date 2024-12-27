@@ -3522,9 +3522,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-api-autorouter@workspace:.":
+"vite-plugin-build-routes@workspace:.":
   version: 0.0.0-use.local
-  resolution: "vite-plugin-api-autorouter@workspace:."
+  resolution: "vite-plugin-build-routes@workspace:."
   dependencies:
     "@types/node": "npm:^22.10.2"
     "@yarnpkg/sdks": "npm:^3.2.0"

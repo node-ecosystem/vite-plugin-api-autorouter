@@ -1,5 +1,5 @@
 {
-  "name": "vite-plugin-api-autorouter",
+  "name": "vite-plugin-build-routes",
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
@@ -11,11 +11,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/node-ecosystem/vite-plugin-api-autorouter.git"
+    "url": "git+https://github.com/node-ecosystem/vite-plugin-build-routes.git"
   },
-  "homepage": "https://github.com/node-ecosystem/vite-plugin-api-autorouter#readme",
+  "homepage": "https://github.com/node-ecosystem/vite-plugin-build-routes#readme",
   "bugs": {
-    "url": "https://github.com/node-ecosystem/vite-plugin-api-autorouter/issues"
+    "url": "https://github.com/node-ecosystem/vite-plugin-build-routes/issues"
   },
   "files": [
     "dist"

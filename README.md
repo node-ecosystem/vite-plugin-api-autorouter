@@ -1,10 +1,10 @@
-# vite-plugin-api-autorouter
+# vite-plugin-build-routes
 
 A Vite plugin to simplify the build of API routes: copy all files from a _target_ directory to a _build_ output directory.
 
 ## ⚙️ Install
 ```sh
-yarn add -D vite-plugin-api-autorouter
+yarn add -D vite-plugin-build-routes
 ```
 
 ## 📖 Usage
@@ -21,15 +21,15 @@ Example:
 import vike from 'vike/plugin'
 import { vikeNode } from 'vike-node/plugin'
 import type { UserConfig } from 'vite'
-import viteApiAutoloader from 'vite-plugin-api-autorouter'
+import viteBuildRoutes from 'vite-plugin-build-routes'
 
 export default {
   plugins: [
     vike(),
     vikeNode('server/index.ts'),
-    viteApiAutoloader('server/api')
+    viteBuildRoutes('server/api')
     // OR use a pattern instead of default '**/*.ts'
-    // viteApiAutoloader({
+    // viteBuildRoutes({
     //   entry: 'server/api',
     //   pattern: '**/*.js'
     // })
