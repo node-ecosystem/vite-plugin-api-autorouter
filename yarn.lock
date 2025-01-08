@@ -3482,13 +3482,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"universal-autorouter@npm:^0.2.3":
-  version: 0.2.3
-  resolution: "universal-autorouter@npm:0.2.3"
-  checksum: 10c0/eb760631144ec85446ba1670929ddbe0a5f123c77014390d1ff652ed719536e2c41050d05e110723ee2c7c74ffd76cdaa2e65800500d6cf2faae83d481f30589
-  languageName: node
-  linkType: hard
-
 "update-browserslist-db@npm:^1.1.1":
   version: 1.1.1
   resolution: "update-browserslist-db@npm:1.1.1"
@@ -3533,7 +3526,6 @@ __metadata:
     pkgroll: "npm:^2.6.0"
     typescript: "npm:^5.7.2"
     typescript-eslint: "npm:^8.18.2"
-    universal-autorouter: "npm:^0.2.3"
     vite: "npm:^6.0.6"
   peerDependencies:
     vite: "*"

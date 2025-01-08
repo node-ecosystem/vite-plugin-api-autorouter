@@ -26,9 +26,6 @@
     "prepublishOnly": "yarn build",
     "od": "yarn outdated"
   },
-  "dependencies": {
-    "universal-autorouter": "^0.2.3"
-  },
   "peerDependencies": {
     "vite": "*"
   },
