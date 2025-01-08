@@ -21,7 +21,7 @@
     "dist"
   ],
   "scripts": {
-    "lint": "eslint src/**/*.{ts,tsx} *.ts",
+    "lint": "eslint src/**/*.ts",
     "build": "pkgroll",
     "prepublishOnly": "yarn build",
     "od": "yarn outdated"
