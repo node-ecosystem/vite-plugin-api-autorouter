@@ -50,7 +50,9 @@ import { Hono } from 'hono'
 import vike from 'vike-node/hono'
 import autoloadRoutes from 'universal-autorouter'
 
-const app = await autoloadRoutes(new Hono(), {
+const app = new Hono()
+
+await autoloadRoutes(app, {
   pattern: process.env.NODE_ENV === 'production' ? '**/*.mjs' : '**/*.ts',
   prefix: '/api',
   routesDir: path.resolve(import.meta.dirname, 'api'),
